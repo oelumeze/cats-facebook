@@ -1,0 +1,13 @@
+<ion-view view-title="Photos">
+  <ion-content>
+
+    <div class="row responsive-md catbook-photos">
+    	<div class="col col-25" ng-repeat="img in Photos.photos">
+	      <img class="catbook-photo"
+	           ng-src="{{ img.url }}" width="100%"
+	           alt="">
+	    </div>
+    </div>
+
+  </ion-content>
+</ion-view>
